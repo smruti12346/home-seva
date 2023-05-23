@@ -7271,7 +7271,7 @@ body .ui-tooltip {
 }
 .main-menu.menu-style-1 > nav > ul > li > a {
   font-weight: 500;
-  font-size: 14px;
+  font-size: 16px;
   color: var(--tp-common-black);
   padding: 11px 0;
 }
