@@ -11,7 +11,9 @@
                       <circle stroke="red" cx="190" cy="190" r="180" stroke-width="6" stroke-linecap="round"></circle> 
                   </svg>
                 </div>
-                <img src="https://homeseva.online/bhubaneswar/wp-content/uploads/2022/10/new_logo.png" alt="">
+                <a routerLink="/">
+                 <img src="https://homeseva.online/bhubaneswar/wp-content/uploads/2022/10/new_logo.png" alt="img">
+                </a>
              </div>
              <h3 class="tp-preloader-title">Home Seva</h3>
              <p class="tp-preloader-subtitle">Loading</p>
@@ -45,7 +47,7 @@
        <div class="offcanvas__content">
           <div class="offcanvas__top mb-70 d-flex justify-content-between align-items-center">
              <div class="offcanvas__logo logo">
-                <a href="/">
+                <a routerLink="/">
                    <img src="https://homeseva.online/bhubaneswar/wp-content/uploads/2022/10/new_logo.png" alt="logo" width="180px">
                 </a>
              </div>
@@ -82,9 +84,6 @@
              <div class="offcanvas__currency-wrapper currency">
                 <span class="offcanvas__currency-selected-currency tp-currency-toggle" id="tp-offcanvas-currency-toggle">Currency : USD</span>
                 <ul class="offcanvas__currency-list tp-currency-list">
-                   <li>USD</li>
-                   <li>ERU</li>
-                   <li>BDT </li>
                    <li>INR</li>
                 </ul>
              </div>
@@ -95,12 +94,12 @@
                    </div>
                    <div class="offcanvas__lang-wrapper">
                       <span class="offcanvas__lang-selected-lang tp-lang-toggle" id="tp-offcanvas-lang-toggle">English</span>
-                      <ul class="offcanvas__lang-list tp-lang-list">
+                      <!-- <ul class="offcanvas__lang-list tp-lang-list">
                          <li>Spanish</li>
                          <li>Portugese</li>
                          <li>American</li>
                          <li>Canada</li>
-                      </ul>
+                      </ul> -->
                    </div>
                 </div>
              </div>
@@ -324,7 +323,9 @@
                 <div class="row align-items-center">
                    <div class="col-xl-2 col-lg-2">
                       <div class="tp-header-category tp-category-menu tp-header-category-toggle">
+                        <a routerLink="/">
                          <img src="https://homeseva.online/bhubaneswar/wp-content/uploads/2022/10/new_logo.png" alt="logo" width="180px">
+                         </a>
                          <nav class="tp-category-menu-content">
                           <ul>
                               <li>
@@ -515,18 +516,18 @@
                          <nav class="tp-main-menu-content text-center">
                             <ul>
                                <li class="has-mega-menu">
-                                  <a href="#">Home</a>
+                                  <a routerLink="/">Home</a>
                                </li>
                                <li  class="has-mega-menu">
-                                  <a href="#">Puja Booking</a>
+                                  <a routerLink="/shop">Puja Booking</a>
                          
                               </li>
                                <li class="has-mega-menu ">
                                   
-                                  <a href="#">Flowers</a>
+                                  <a routerLink="/shop">Flowers</a>
                        
                                </li>
-                               <li><a href="#">Puja Samagri</a></li>
+                               <li><a routerLink="/shop">Puja Samagri</a></li>
                                <li><a href="#">About Us</a></li>
                                <li><a href="#">Contact</a></li>
                             </ul>
@@ -554,7 +555,7 @@
           <div class="row align-items-center">
              <div class="col-xl-3 col-lg-3 col-md-3 col-6">
                 <div class="logo">
-                   <a href="#">
+                   <a routerLink="/">
                       <img src="https://homeseva.online/bhubaneswar/wp-content/uploads/2022/10/new_logo.png" alt="logo">
                    </a>
                 </div>
@@ -564,7 +565,7 @@
                    <nav id="mobile-menu"> 
                       <ul>
                          <li class="has-mega-menu">
-                            <a href="#">Home</a>
+                            <a routerLink="/">Home</a>
                          </li>
                          <li  class="has-mega-menu">
                             <a href="#">Puja Booking</a>                                
