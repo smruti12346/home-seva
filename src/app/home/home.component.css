@@ -1,10 +1,11 @@
 .card {
-    width: auto;
+    /* width: auto;
     height: 254px;
     padding: 10px;
     border-radius: 50px;
     background: #f5f5f5;
     box-shadow: 20px 20px 60px #bebebe,
-                  -20px -20px 60px #ffffff;
+                  -20px -20px 60px #ffffff; */
     border: 0px;              
    }
+  

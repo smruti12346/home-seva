@@ -9653,9 +9653,11 @@ div.tp-blog-thumb img {
   height: 38px;
   line-height: 38px;
   text-align: center;
-  background: #FFFFFF;
+  background: #67FECB;
   box-shadow: 0px 1px 1px rgba(1, 15, 28, 0.2);
   border-radius: 6px;
+  margin: 0px 3px;
+  color:#000;
 }
 .tp-footer-social a:hover {
   background-color: var(--tp-theme-primary);
@@ -9707,10 +9709,8 @@ div.tp-blog-thumb img {
   margin-bottom: 0;
 }
 
-.tp-footer-bottom-wrapper {
-  padding-top: 18px;
-  padding-bottom: 40px;
-  border-top: 1px solid rgba(1, 15, 28, 0.1);
+.tp-footer-bottom {
+ border-top:1px solid #4950CC;
 }
 
 /* footer col design for home 1 */
@@ -14232,7 +14232,7 @@ div.tp-author-info-avater img {
   align-items: center;
   justify-content: center;
   margin: auto;
-}
+} 
 @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
   .tp-product-category-thumb a {
     width: 150px;
